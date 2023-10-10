@@ -12,6 +12,8 @@ Dans `documentation` se trouvent les explications détaillées. Elles sont regro
 
 Dans `code` se trouve un programme simple à envoyer sur les STM32
 
+Dans `exercices` s trouvent les tâches à effectuer pendant la formation
+
 ## Matériel utilisé 
 - STM32 Nucleo-L432KC
 
