@@ -36,3 +36,7 @@ Vous avez maintenant une copie locale du repo de la formation. Il faut maintenan
 - Vous pouvez maintenant observer votre modification dans l'onglet `Source Control`
 - Dans cet onglet, écrivez un message dans la zone au dessus du bouton `Commit` (obligatoire), qui explique ce que ce commit ajoute
 - Cliquez sur le bouton `Commit`
+- Cliquez sur `Publish branch`, puis `Sync` (equivalent de push puis pull).
+
+Vous avez maintenant créé une nouvelle branche à la fois en local et en remote, contenant un nouveau commit.
+
