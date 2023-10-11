@@ -34,4 +34,5 @@ Vous avez maintenant une copie locale du repo de la formation. Il faut maintenan
 
 - créez dans votre branche un nouveau fichier `prenom-nom.txt` dans le dossier `participants`
 - Vous pouvez maintenant observer votre modification dans l'onglet `Source Control`
+- Dans cet onglet, écrivez un message dans la zone au dessus du bouton `Commit` (obligatoire), qui explique ce que ce commit ajoute
 - Cliquez sur le bouton `Commit`
