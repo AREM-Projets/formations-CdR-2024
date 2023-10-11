@@ -38,5 +38,21 @@ Vous avez maintenant une copie locale du repo de la formation. Il faut maintenan
 - Cliquez sur le bouton `Commit`
 - Cliquez sur `Publish branch` (ultérieurement, ce bouton deviendra `Sync`, pour push puis pull)
 
-Vous avez maintenant créé une nouvelle branche à la fois en local et en remote, contenant un nouveau commit.
+Vous avez maintenant créé une nouvelle branche à la fois en local et en remote, contenant un nouveau commit. Vous pouvez créer autant de nouveaux commitsque vous le souhaitez sur cette branche. 
+
+### Merge 
+
+Maintenant que vous avez votre branche, il faudrait que les changements effectués sur celle-ci puissent être ajoutés sur la branche principale.
+
+Pour cela, on va fusionner (merge) ces deux branches, en utilisant l'interface de github.
+
+- Ouvrir (ou refresh) la page du repo sur Github
+- Cliquer sur l'onglet `Pull requests`
+- Cliquer sur `New pull request` puis créer la requête suivante 
+```
+base: main <- compare: votre-branche
+```
+- Cliquer sur `Create pull request`
+
+Normalement, la fusion devrait être automatique, cependant parfois des conflits émergent. Il s'agit très souvent de cas dans lesquels *2 personnes différentes ont modidié la même fonction / le même paragraphe d'un texte*.
 
