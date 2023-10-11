@@ -44,8 +44,3 @@ Cherchez sur internet c'est pas difficile.
 
 - Git est souvent installé par défaut, pour tester taper la commande `git --version` dans un terminal
 - Si il n'est pas installé, `sudo apt install git`
-
-
-
-
-

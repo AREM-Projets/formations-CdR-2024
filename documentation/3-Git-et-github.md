@@ -49,9 +49,4 @@ Il existe plusieurs manières d'intéragir avec un repo distant
 3. Pull
 > La commande pull permet de récupérer les nouvelles informations dans le repo distant (mise à jour du repo local)
 
-
-
-
-
-
-
+**Aller dans exercices -> ex1-Github.md**

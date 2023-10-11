@@ -20,7 +20,7 @@ Voir `3-Git-et-github.md` dans le dossier documentation si besoin à tout moment
 - Coller l'URL 
 - Choisir un dossier dans lequel placer le repo
 
-Vous avez maintenant une copie locale du repo de la formation. Il faut maintenant le modifier.
+Vous avez maintenant une copie locale du repo de la formation. Il faut maintenant le modifier. Vous pouvez maintenant accéder à l'onglet `Source control` du menu de gauche (commande : `View : Show Source Control`).
 
 ### Créer une branche
 
@@ -29,4 +29,30 @@ Vous avez maintenant une copie locale du repo de la formation. Il faut maintenan
 - en bas de la fenètre VSCode (barre bleue), cliquez sur `main`, qui représente la branche dans laquelle vous êtes actuellement
 - Cliquez sur `Create new branch...`
 - Nommez votre branche avec un nom cohérent
-- 
+
+### Créer un nouveau commit
+
+- créez dans votre branche un nouveau fichier `prenom-nom.txt` dans le dossier `participants`
+- Vous pouvez maintenant observer votre modification dans l'onglet `Source Control`
+- Dans cet onglet, écrivez un message dans la zone au dessus du bouton `Commit` (obligatoire), qui explique ce que ce commit ajoute
+- Cliquez sur le bouton `Commit`
+- Cliquez sur `Publish branch` (ultérieurement, ce bouton deviendra `Sync`, pour push puis pull)
+
+Vous avez maintenant créé une nouvelle branche à la fois en local et en remote, contenant un nouveau commit. Vous pouvez créer autant de nouveaux commitsque vous le souhaitez sur cette branche. 
+
+### Merge 
+
+Maintenant que vous avez votre branche, il faudrait que les changements effectués sur celle-ci puissent être ajoutés sur la branche principale.
+
+Pour cela, on va fusionner (merge) ces deux branches, en utilisant l'interface de github.
+
+- Ouvrir (ou refresh) la page du repo sur Github
+- Cliquer sur l'onglet `Pull requests`
+- Cliquer sur `New pull request` puis créer la requête suivante 
+```
+base: main <- compare: votre-branche
+```
+- Cliquer sur `Create pull request`
+
+Normalement, la fusion devrait être automatique, cependant parfois des conflits émergent. Il s'agit très souvent de cas dans lesquels *2 personnes différentes ont modidié la même fonction / le même paragraphe d'un texte*.
+
