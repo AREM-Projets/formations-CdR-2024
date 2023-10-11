@@ -20,7 +20,7 @@ Voir `3-Git-et-github.md` dans le dossier documentation si besoin à tout moment
 - Coller l'URL 
 - Choisir un dossier dans lequel placer le repo
 
-Vous avez maintenant une copie locale du repo de la formation. Il faut maintenant le modifier.
+Vous avez maintenant une copie locale du repo de la formation. Il faut maintenant le modifier. Vous pouvez maintenant accéder à l'onglet `Source control` du menu de gauche (commande : `View : Show Source Control`).
 
 ### Créer une branche
 
@@ -29,4 +29,9 @@ Vous avez maintenant une copie locale du repo de la formation. Il faut maintenan
 - en bas de la fenètre VSCode (barre bleue), cliquez sur `main`, qui représente la branche dans laquelle vous êtes actuellement
 - Cliquez sur `Create new branch...`
 - Nommez votre branche avec un nom cohérent
-- 
+
+### Créer un nouveau commit
+
+- créez dans votre branche un nouveau fichier `prenom-nom.txt` dans le dossier `participants`
+- Vous pouvez maintenant observer votre modification dans l'onglet `Source Control`
+- Cliquez sur le bouton `Commit`
