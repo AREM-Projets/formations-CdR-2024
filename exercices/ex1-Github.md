@@ -32,10 +32,10 @@ Vous avez maintenant une copie locale du repo de la formation. Il faut maintenan
 
 ### Créer un nouveau commit
 
-- créez dans votre branche un nouveau fichier `prenom-nom.txt` dans le dossier `participants`
+- créez dans votre branche un nouveau fichier `prenom-nom.txt` dans le dossier `participants` et écrivez quelque chose dedans
 - Vous pouvez maintenant observer votre modification dans l'onglet `Source Control`
 - Dans cet onglet, écrivez un message dans la zone au dessus du bouton `Commit` (obligatoire), qui explique ce que ce commit ajoute
-- Cliquez sur le bouton `Commit`
+- Cliquez sur le bouton `Commit` (aussi accessible depuis la palette de commandes)
 - Cliquez sur `Publish branch` (ultérieurement, ce bouton deviendra `Sync`, pour push puis pull)
 
 Vous avez maintenant créé une nouvelle branche à la fois en local et en remote, contenant un nouveau commit. Vous pouvez créer autant de nouveaux commitsque vous le souhaitez sur cette branche. 
@@ -56,3 +56,10 @@ base: main <- compare: votre-branche
 
 Normalement, la fusion devrait être automatique, cependant parfois des conflits émergent. Il s'agit très souvent de cas dans lesquels *2 personnes différentes ont modidié la même fonction / le même paragraphe d'un texte*.
 
+- Après avoir résolu les conflits, cliquer sur `Merge pull request`, puis `Confirm merge`
+- En général, les branches fusionnées sont supprimées (faites le), cliquez sur `Delete branch`
+- Repartez dans la branche `main`, utilisez la commande `Git: Sync` et observez les changements.
+
+Si votre fichier est bien présent, vous avez réussi ! 
+
+**Aller dans documentation -> 4-Programmation-embarquee.md**
