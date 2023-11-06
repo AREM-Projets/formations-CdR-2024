@@ -35,6 +35,7 @@ La documentation doit être mise à jour avec le projet, sinon elle ne sert à r
 Chaque projet contenant du code doit contenir :
 - un README (en général .md) qui explique le fonctionnement général du code
 - des commentaires dans le code là où il n'est pas intuitif
+- des dessins/schémas si c'est cohérent
 
 **Pour du code, la meilleure documentation c'est du code bien écrit**  
 C'est à dire :

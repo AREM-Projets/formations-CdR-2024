@@ -58,7 +58,10 @@ void loop()
 ```
 
 Pour récupérer ce programme et l'envoyer sur une carte :
-- ouvrir le menu `Home` de PLatformIO
+- ouvrir le menu `Home` de PLatformIO 
+
+![image_pio_home](../images/open_platformio.png)
+
 - cliquer sur `Open project` et choisir le dossier `Code-formation`
 - Brancher la carte
 - Cliquer sur la flèche (->) en bas de l'interface VSCode 

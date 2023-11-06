@@ -36,33 +36,37 @@ print(f"Finished in {time.time() - t} s")
 ```
 
 ```c
-// C - sous linux
+// C - avec Linux
 #include <sys/time.h>
 #include <stdio.h>
+#include <stdint.h>
 
 int main()
 {
     int a = 10;
-    int r = 1000000000; // 1 milliard
+    uint32_t r = 1000000000; // 1 milliard, attention à ne pas overflow
     struct timeval stop, start;
     gettimeofday(&start, NULL);
-    
-    for (int i = 0; i < r; i++)
+
+    for (uint32_t i = 0; i < r; i++)
     {
-        a = i;  
+        a = i;
     }
 
     gettimeofday(&stop, NULL);
     time_t time_spent_ms = ((stop.tv_sec - start.tv_sec) * 1000000 + stop.tv_usec - start.tv_usec) / 1000;
-    
+
     printf("Finished in %lu ms\n", time_spent_ms);
 
     return 0;
 }
 ```
+
+On constate que le C est BEAUCOUP plus rapide.
+
 ### Framework utilisé
 
-Pour un grand nombre de microcontrôleurs, des ensembles de librairies (appelé Framework) permettent de programmer la carte. 
+Pour un grand nombre de microcontrôleurs, des ensembles de librairies (appelés Frameworks) permettent de programmer la carte. 
 
 Par exemple, pour la Nucleo L432KC, on a les choix suivants (sans aller chercher loin) :
 - librairies ST LL (Low Level)

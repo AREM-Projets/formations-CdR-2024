@@ -63,3 +63,5 @@ Normalement, la fusion devrait être automatique, cependant parfois des conflits
 Si votre fichier est bien présent, vous avez réussi ! 
 
 **Aller dans documentation -> 4-Programmation-embarquee.md**
+
+Pour aller plus loin (interface ligne de commande de Git) : https://learngitbranching.js.org/

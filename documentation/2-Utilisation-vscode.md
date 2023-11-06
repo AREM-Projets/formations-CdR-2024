@@ -7,7 +7,7 @@ Ce tutoriel est basé sur la vesion anglaise du logiciel. Because I can.
 ## Palette de commandes
 
 A tout moment, vous pouvez ouvrir la palette de commandes de plusieurs manières :
-- Engrenage en bas puis `Command Palette`
+- Engrenage en bas à gauche puis `Command Palette`
 - `Ctrl+Shift+P`
 - `F1`
 
@@ -24,6 +24,9 @@ Mis à part l'éditeur de texte, 2 menus sont visibles :
 - la Side Bar à gauche
 
 Toutes les commandes executables depuis ce menu peuvent aussi être utilisées depuis la palette de commandes.
+
+Vous avez donc :
+![menus VSCode](../images/menus_vscode.png)
 
 ## Barre de menus - options utiles
 

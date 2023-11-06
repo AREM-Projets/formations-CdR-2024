@@ -28,12 +28,16 @@ Cherchez sur internet c'est pas difficile.
 
 ## Installation de PlatformIO
 
+![image installation platformIO](../images/platformio_install.png)
+
 - Ouvrir le menu de gestion des extensions (icone à gauche : 4 carrés ou `Ctrl+Shift+X`)
 - Chercher l'extension `PlatformIO IDE`
 - La télécharger
 - Relancer VSCode si besoin
 
 ## Installation de Git 
+
+[Guide d'installation écrit par des gens compétents](https://github.com/git-guides/install-git)
 
 ### Windows 
 
