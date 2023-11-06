@@ -67,6 +67,8 @@ Pour récupérer ce programme et l'envoyer sur une carte :
 - Cliquer sur la flèche (->) en bas de l'interface VSCode 
 - Pour observer les Serial.print, cliquer sur l'icône du Serial Monitor (ressemble à une prise électrique)
 
+![Image des boutons d'envoi de code](../images/envoi_code_platformio.png)
+
 Si le texte s'affiche bien, bravo, vous savez envoyer du code avec PlatformIO !
 
 A faire :
