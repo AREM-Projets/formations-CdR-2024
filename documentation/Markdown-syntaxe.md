@@ -70,7 +70,7 @@ Ex : ![image légendaire](../images/stalinerac.jpg)
 
 Les équations sont basées sur le [LaTeX](https://en.wikipedia.org/wiki/LaTeX)
 
-Les équations sur une ligne sont écrites : \$x = \sqrt{y}\$ (rendu : $x = \sqrt{y}$).
+Les équations sur une ligne sont écrites : \$ x = \sqrt{y} \$ (rendu : $x = \sqrt{y}$).
 
 Les équations centrées sont écrites\$\$x = \sqrt{y}\$\$. Rendu : 
 $$x = \sqrt{y}$$
