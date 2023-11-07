@@ -1,7 +1,7 @@
 # Envoi de code sur une STM32 par platformIO
 
 On va essayer d'envoyer du code sur une carte électronique. Pou cela il faut se munir :
-- d'une carte **ST Nucleo L432KC** (l'utilisation d'une autre carte est possible mais ajoute de la difficulté)
+- d'une carte **ST Nucleo L432KC** ou **ST Nucleo F446RE**(l'utilisation d'une autre carte est possible mais ajoute de la difficulté)
 - d'un câble capable d'envoyer des données sur cette carte (USB - micro USB)
 
 L'objectif de cet exercice n'est pas d'apprendre à programmer, mais à envoyer du code est le tester. Le code est donc très simple.
@@ -49,10 +49,8 @@ void setup()
 
 void loop()
 {
-    Serial.print("Déjà vu. ");
-    Serial.println("I've just been in this place before");
-    Serial.printf("%d times \n", compteur);
-
+    Serial.print("Quelque chose");
+    compteur++;
     delay(1000); 
 }
 ```
