@@ -1,6 +1,6 @@
 # Ok t'as compris
 
-Propagande offerte :
-![[propagande](./5-Documentation.md)](../images/stalinerac.jpg)
+[Propagande offerte](./5-Documentation.md) :
+![propagande](../images/stalinerac.jpg)
 
-[Clique ici pour revenir]()
+[Clique ici pour revenir](https://matias.ma/nsfw/)
