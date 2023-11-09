@@ -140,5 +140,23 @@ Comme office mais :
 
 ### Texte - markdown
 
-Exemple : [cette chose]()
+Exemple : [cette chose](../images/nvm.md), [ou ce truc](./5-Documentation.md)
 
+Remarque : **standard dans le milieu de la programmation**
+
+Avantages :
+- facile de trouver une info particulière (Ctrl+F)
+- facile à modifier
+- facile à découper proprement (**utiliser des liens vers d'autres fichiers**)
+- interprété par gitHub
+
+Inconvénients : 
+- syntaxe irrégulière selon où on l'utilise
+
+### Autres
+
+- modélisations 3D
+- schémas dans un format quelconque
+- etc.
+
+Préciser si ce n'est pas clair comment les lire (logiciel...)
