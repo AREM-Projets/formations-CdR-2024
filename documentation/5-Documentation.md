@@ -140,7 +140,7 @@ Comme office mais :
 
 ### Texte - markdown
 
-Exemple : [cette chose](../images/nvm.md), [ou ce truc](./5-Documentation.md)
+Exemple : [cette chose](../images/nvm.md), [ou ce truc](./5-Documentation.md#texte---markdown)
 
 Remarque : **standard dans le milieu de la programmation**
 
