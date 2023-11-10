@@ -55,7 +55,7 @@ La documentation doit donc contenir :
 - Explications de l'utilisation du système
 - Matériel utilisé (soyez précis)
 
-## Types de documentation
+## Forme de la documentation
 
 Tout est possible, tant que c'est bien fait. On va ici voir des exemples.
 
@@ -157,6 +157,7 @@ Inconvénients :
 
 - modélisations 3D
 - schémas dans un format quelconque
+- simulations
 - etc.
 
 Préciser si ce n'est pas clair comment les lire (logiciel...)
