@@ -6,7 +6,7 @@ L'objectif de cette formation est d'initier les 1A aux bases de la programmation
 - téléversement de code sur une STM32
 - bases de la programmation en Arduino
 
-## Structure du repo
+## Structure
 
 Dans `documentation` se trouvent les explications détaillées. Elles sont regroupées dans différents fichiers.
 
