@@ -128,3 +128,4 @@ uControleurs :
 SBC :
 - Raspberry Pi 4
 
+Aller dans **[exercices -> ex2-Code.md](../exercices/ex2-Code.md)**

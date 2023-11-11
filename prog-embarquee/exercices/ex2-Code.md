@@ -72,4 +72,4 @@ Si le texte s'affiche bien, bravo, vous savez envoyer du code avec PlatformIO !
 A faire :
 - Créer une fonction qui affiche quelque chose sur le terminal, l'utiliser dans loop()
 
-**Aller dans documentation -> 5-Documentation.md**
+**Aller dans [documentation -> 5-Documentation.md](../documentation/5-Documentation.md)**

@@ -1,19 +1,16 @@
-# Formation CDR - bases de l'embarqué
+# Formation CdR 2024
 
-L'objectif de cette formation est d'initier les 1A aux bases de la programmation embarquée :
-- installation et utilisation de base de PlatformIO
-- généralités sur les différentes STM32 présentes au local
-- téléversement de code sur une STM32
-- bases de la programmation en Arduino
+Ce repo contient les supports des formations faites par l'AREM pour la CdR 2024. 
 
-## Structure du repo
+## Formations pour tous
 
-Dans `documentation` se trouvent les explications détaillées. Elles sont regroupées dans différents fichiers.
+| Nom de la formation | Formateurs | Date |
+| --- | --- | --- |
+| Capteurs-Moteurs | Lïam Lotte, Gauthier Pineda | 08/11/2023 |
+| Bases de l'électronique | Eliott Perret, Cyril Hérail | 11/11/2023 |
+| Bases de la programmation embarquée | Kézia Marcou | ? | 
 
-Dans `code` se trouve un programme simple à envoyer sur les STM32
+## Formations spécifiques à un pôle / une compétence
 
-Dans `exercices` se trouvent les tâches à effectuer pendant la formation
-
-## Matériel utilisé 
-- STM32 Nucleo-L432KC ou STM32 Nucleo-F446RE
-
+| Nom de la formation | Pôle/compétence |Formateurs | Date |
+| --- | --- | --- | --- |

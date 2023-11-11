@@ -1,7 +1,7 @@
-bullshit/*
-.vscode
-code/*/.pio
-code/*/.vscode/.browse.c_cpp.db*
-code/*/.vscode/c_cpp_properties.json
-code/*/.vscode/launch.json
-code/*/.vscode/ipch
+prog-embarquee/bullshit/*
+prog-embarquee/.vscode
+prog-embarquee/code/*/.pio
+prog-embarquee/code/*/.vscode/.browse.c_cpp.db*
+prog-embarquee/code/*/.vscode/c_cpp_properties.json
+prog-embarquee/code/*/.vscode/launch.json
+prog-embarquee/code/*/.vscode/ipch

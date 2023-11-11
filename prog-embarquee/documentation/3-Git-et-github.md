@@ -62,4 +62,4 @@ On fusionne chacune de ces branches avec *main*.
 
 ![Exemple workflow 2](../images/exemple_workflow_2.png)
 
-**Aller dans exercices -> ex1-Github.md**
+**Aller dans [exercices -> ex1-Github.md](../exercices/ex1-Github.md)**
