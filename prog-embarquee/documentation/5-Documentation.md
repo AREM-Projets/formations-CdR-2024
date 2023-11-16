@@ -153,11 +153,14 @@ Avantages :
 Inconvénients : 
 - syntaxe irrégulière selon où on l'utilise
 
+[Un guide de la syntaxe du markdown se trouve ici.](./Markdown-syntaxe.md)
+
 ### Autres
 
 - modélisations 3D
 - schémas dans un format quelconque
 - simulations
+- tableaux
 - etc.
 
 Préciser si ce n'est pas clair comment les lire (logiciel...)

@@ -8,7 +8,7 @@ Ce repo contient les supports des formations faites par l'AREM pour la CdR 2024.
 | --- | --- | --- |
 | Capteurs-Moteurs | Lïam Lotte, Gauthier Pineda | 08/11/2023 |
 | Bases de l'électronique | Eliott Perret, Cyril Hérail | 11/11/2023 |
-| Bases de la programmation embarquée | Kézia Marcou | ? | 
+| Bases de la programmation embarquée | Kézia Marcou | 16/11/2023 | 
 
 ## Formations spécifiques à un pôle / une compétence
 
