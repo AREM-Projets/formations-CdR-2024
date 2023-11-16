@@ -41,3 +41,7 @@ On évite d'utiliser l'option `Open File` qui ouvre un seul fichier.
 Pour chaque language de programmation et type de fichier, des extensions peuvent être installées pour ajouter des fonctionnalités à VSCode. 
 
 Par exemple, il est possible de lire des PDF ou encore d'ouvrir et éditer des tableaux Excel depuis VSCode. C'est à vous de trouver les extensions si vous êtes intéressés.
+
+## TLDR
+
+Voila [une vidéo](https://www.youtube.com/watch?v=KMxo3T_MTvY).

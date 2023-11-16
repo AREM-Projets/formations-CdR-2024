@@ -1,6 +1,15 @@
 # Exercice - utilisation de github
 
-Voir `3-Git-et-github.md` dans le dossier documentation si besoin à tout moment.
+Voir [`3-Git-et-github.md`](../documentation/3-Git-et-github.md) dans le dossier documentation si besoin à tout moment.
+
+## Rejoindre l'organisation AREM-Projets
+
+Allez dans le menu des organisations de [GitHub](https://github.com/).
+
+Pour l'ouvrir : 
+![invitation organisation github](../images/invitation_github.png)
+
+Si vous n'avez pas été invités, et que vous voulez participer à la CdR pour l'AREM, contactez le responsable Informatique de l'association.
 
 ## Objectif
 
