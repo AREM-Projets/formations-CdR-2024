@@ -2,6 +2,16 @@
 
 Voir [`3-Git-et-github.md`](../documentation/3-Git-et-github.md) dans le dossier documentation si besoin à tout moment.
 
+## Configuration de git 
+
+Si vous ne l'avez pas fait, ouvrez `git bash` et tapez les 2 commandes suivantes : 
+```sh
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+
+En remplaçant bien évidemment les noms/prénoms/email.
+
 ## Rejoindre l'organisation AREM-Projets
 
 Allez dans le menu des organisations de [GitHub](https://github.com/).
@@ -41,13 +51,13 @@ Vous avez maintenant une copie locale du repo de la formation. Il faut maintenan
 
 ### Créer un nouveau commit
 
-- créez dans votre branche un nouveau fichier `prenom-nom.txt` dans le dossier `participants` et écrivez quelque chose dedans
+- créez dans votre branche un nouveau fichier avec votre nom/prénom dans le dossier `participants` et écrivez quelque chose dedans
 - Vous pouvez maintenant observer votre modification dans l'onglet `Source Control`
 - Dans cet onglet, écrivez un message dans la zone au dessus du bouton `Commit` (obligatoire), qui explique ce que ce commit ajoute
 - Cliquez sur le bouton `Commit` (aussi accessible depuis la palette de commandes)
 - Cliquez sur `Publish branch` (ultérieurement, ce bouton deviendra `Sync`, pour push puis pull)
 
-Vous avez maintenant créé une nouvelle branche à la fois en local et en remote, contenant un nouveau commit. Vous pouvez créer autant de nouveaux commitsque vous le souhaitez sur cette branche. 
+Vous avez maintenant créé une nouvelle branche à la fois en local et en remote, contenant un nouveau commit. Vous pouvez créer autant de nouveaux commits que vous le souhaitez sur cette branche. 
 
 ### Merge 
 
@@ -56,7 +66,7 @@ Maintenant que vous avez votre branche, il faudrait que les changements effectu�
 Pour cela, on va fusionner (merge) ces deux branches, en utilisant l'interface de github.
 
 - Ouvrir (ou refresh) la page du repo sur Github
-- Cliquer sur l'onglet `Pull requests`
+- Cliquer sur l'onglet `Pull requests` ou la liste des branches
 - Cliquer sur `New pull request` puis créer la requête suivante 
 ```
 base: main <- compare: votre-branche
