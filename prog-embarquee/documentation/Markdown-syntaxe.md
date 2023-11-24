@@ -30,7 +30,7 @@ Insertion d'un bloc de code :
 \`\`\`extension_de_fichier (ici py)  
 ```py
 # Code exemple
-name = Feur
+name = "Feur"
 print(f"Hi {name} \n")
 ``` 
 \`\`\`
