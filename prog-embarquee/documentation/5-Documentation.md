@@ -2,7 +2,7 @@
 
 La documentation est une partie intégrale de **tout projet**, que ce soit en programmation ou électronique.
 
-Elle a un objectif très simple : permettre à tous de comprendre le fonctionnement d'un système, en perdant le moins de temps possible.
+Elle a un objectif très simple : permettre à **tous** de comprendre le fonctionnement d'un système, en perdant le moins de temps possible.
 
 "Tous" comprend ici :
 - d'autres personnes qui souhaitent travailler sur le projet
