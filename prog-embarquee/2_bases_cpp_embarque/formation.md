@@ -55,8 +55,7 @@ img[alt~="center"] {
 
 1. Bases du C++
 2. Spécificités de la prog embarquée
-3. Classes basiques
-4. Plus de librairies si jamais vous en avez besoin
+3. Plus de librairies si jamais vous en avez besoin
 
 --- 
 
@@ -103,7 +102,7 @@ std::cout << n << "\n"; // 16
 
 ### Tableaux
 
-Remarque : il est conseillé d'utiliser les librairies `<vector>` et `<array>` de la STL au lieu d'un tableau.
+Remarque : quand on est sur un PC il est conseillé d'utiliser les librairies `<vector>` et `<array>` de la STL au lieu d'un tableau.
 
 Les tableaux fonctionnent comme en C. 
 
@@ -128,6 +127,20 @@ int *arr_cpp = new int[n]; // C++
 
 On a : `type* variable = new type[taille]` pour un type quelconque. `[taille]` est optionnel. 
 
+---
+
+### Destruction dynamique
+
+Pour détruire une variable créée avec `new` on utilise `delete`.
+
+```cpp
+int *ptr_cpp = new int;
+int *arr_cpp = new int[n]; 
+
+delete ptr_cpp; // suppression de pointeur
+delete [] arr_cpp; // suppression de tableau
+```
+
 --- 
 
 <!--header: "Section : Prog embarquée"-->
@@ -138,6 +151,7 @@ Fondamentalement une philosophie différente par rapport à nu programme classiq
 - on utilise un minimum de librairies
 - pas de tableaux dynamiques si on peut éviter
 - les variables globales c'est bien
+- **ne pas oublier l'architecture physique**
 
 ---
 
@@ -145,16 +159,56 @@ Fondamentalement une philosophie différente par rapport à nu programme classiq
 
 Créer un programme qui envoie du texte sur votre terminal (Arduino).
 
-Fonctions utiles : 
-```
-Serial.begin(int baud_rate);
-Serial.print(...);
-Serial.println(...);
-Serial.printf(...);
+```cpp
+Serial.begin(uint32_t baud_rate);
+Serial.print(...); // variantes : println, printf
+delay(uint32_t time_ms);
 ```
 
 Note : baud_rate par défaut 9600, pour le changer ajouter `monitor_speed = 115200` dans *platformio.ini*
 
+Bonus : si vous cous faites chier, lire un mot tapé au clavier puis print ce qui a été tapé
+
+--- 
+
+### Programme n°1 - points intéressants
+
+- Quel protocole de communication a été utilisé ? 
+- c koi le baud rate ?
+- Ca risque de bloquer quels pins d'utiliser cette méthode d'envoyer des données ?
+
+---
+
+## Pins - généralités
+
+Chaque pin de la STM32 peut avoir plusieurs fonctions, mais une seule à la fois. 
+
+On les retrouve dans le **pinout** (trouvé en une recherche google).
+
+Il est important de **toujours savoir quels pins sont utilisés par un programme**. Par exemple en les définissant tous dans `pins.h`
+
+--- 
+
+## Pins - modes de fonctionnement
+
+- fonction spécifique (ex: SDA, TX, PWM, ADC...)
+- output (0 ou 3.3V sur une STM32, 5V sur certaines cartes)
+- input flottant (on évite)
+- input pullup
+- input pulldown
+
+---
+
+### Programme n°2 - au boulot
+
+Prendre un bouton. Faire en sorte d'afficher son état sur le terminal. 
+
+```cpp
+pinMode(uint32_t pin, uint32_t mode); // mode : INPUT, OUTPUT, INPUT_PULLUP...
+digitalRead(uit32_t pin);
+```
+
+Bonus : brancher une LED (**ne pas oublier la résistance**), le bouton change l'état de la LED a chaque fois qu'on appuie dessus.
 
 ---
 
@@ -165,7 +219,7 @@ La STL est l'une des plus grandes différences entre le C et le C++.
 
 Un grand nombre d'algorithmes et structures de données y figurent. 
 
-On verra ici (à travers des exemples) : 
+Les plus utiles sont : 
 ```cpp
 #include <array> // Tableaux
 #include <string> // Chaînes de caractères
@@ -196,11 +250,10 @@ cout << endl; // Sorted arr : 1 2 3 4 7
 ```
 --- 
 
-### <string>
+### Le reste
 
-Les méthodes vues pour <array> fonctionnent aussi avec <string> 
+## RTFM
 
-```cpp
+https://en.cppreference.com/w/
 
-```
-
+Bonne chance, la semaine prochaine **interruptions et timers**.
