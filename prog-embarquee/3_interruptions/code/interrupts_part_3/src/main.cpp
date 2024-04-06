@@ -4,7 +4,6 @@
 
 volatile uint8_t count_button = 0;
 
-void writeCount(uint8_t count);
 void buttonCallback();
 
 void setup() {
@@ -13,8 +12,7 @@ void setup() {
     pinMode(PIN_LED_2, OUTPUT);
     Serial.begin(9600);
 
-    // attachInterrupt(digitalPinToInterrupt(PIN_BUTTON), buttonCallback, CHANGE); // Base
-    attachInterrupt(digitalPinToInterrupt(PIN_BUTTON), buttonCallback, FALLING); // Bonus
+    attachInterrupt(digitalPinToInterrupt(PIN_BUTTON), buttonCallback, CHANGE); // Base
 }
 
 void loop() {
@@ -31,7 +29,6 @@ void loop() {
     delay(1000);
 }
 
-/* Base 
 void buttonCallback()
 {
     if(digitalRead(PIN_BUTTON) == HIGH)
@@ -42,19 +39,4 @@ void buttonCallback()
     {
         digitalWrite(PIN_LED, HIGH);
     }
-}
-*/
-
-/* Bonus */
-void buttonCallback()
-{
-    count_button++;
-    count_button = count_button & 0b11; // sur 2 bits
-    writeCount(count_button);
-}
-
-void writeCount(uint8_t count)
-{
-    digitalWrite(PIN_LED, count & 0b1);
-    digitalWrite(PIN_LED_2, count & 0b10);
 }
