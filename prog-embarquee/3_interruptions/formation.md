@@ -206,8 +206,6 @@ Créer un programme qui allume une LED pendant 10s une fois qu'on appuie sur un 
 
 Le programme doit fonctionner quelque soit le contenu de `loop()`.
 
-Bonus : faire fonctionner un HC-SR04 en continu indépendamment du programme principal. glhf. Faites comme vous voulez même sans interruptions timer...
-
 --- 
 
 <!--header: ""-->
